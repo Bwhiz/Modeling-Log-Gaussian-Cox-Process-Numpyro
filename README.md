@@ -17,14 +17,15 @@ The observed point process is modeled as a Poisson process with intensity $\Lamb
 
 The likelihood for $N$ observed points $\{s_1, s_2, \ldots, s_N\}$ is given by:
 
-<script type="text/javascript" async
+<!-- <script type="text/javascript" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
+$$p({s_i}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) , ds\right),$$ -->
 
-$$p({s_i}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) , ds\right),$$
 
+<!-- $$p(\{s_i\}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) \, ds\right),$$ -->
 
-<!-- $p(\{s_i\}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) \, ds\right),$ -->
+![likelihood](https://quicklatex.com/cache3/13/ql_a62700e13f19248baa962efeb3cc6e13_l3.png)
 
 where $\mathcal{S}$ is the spatial domain of interest.
 
