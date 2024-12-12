@@ -15,9 +15,9 @@ where:
 
 The observed point process is modeled as a Poisson process with intensity $\Lambda(s)$.
 
-The likelihood for $ N $ observed points $\{s_1, s_2, \ldots, s_N\}$ is given by:
+The likelihood for $N$ observed points $\{s_1, s_2, \ldots, s_N\}$ is given by:
 
-$$p(\{s_i\}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) \, ds\right),$$
+$p(\{s_i\}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) \, ds\right),$
 
 where $\mathcal{S}$ is the spatial domain of interest.
 
