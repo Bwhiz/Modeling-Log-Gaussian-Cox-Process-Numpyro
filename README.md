@@ -25,7 +25,12 @@ $$p({s_i}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathc
 
 <!-- $$p(\{s_i\}_{i=1}^N \mid Z(s)) = \prod_{i=1}^N \Lambda(s_i) \exp\left(-\int_\mathcal{S} \Lambda(s) \, ds\right),$$ -->
 
-![likelihood](https://quicklatex.com/cache3/13/ql_a62700e13f19248baa962efeb3cc6e13_l3.png)
+<!-- ![likelihood](https://quicklatex.com/cache3/13/ql_a62700e13f19248baa962efeb3cc6e13_l3.png) -->
+
+<p align="center">
+  <img src="https://quicklatex.com/cache3/13/ql_a62700e13f19248baa962efeb3cc6e13_l3.png" alt="Rendered LaTeX Equation">
+</p>
+
 
 where $\mathcal{S}$ is the spatial domain of interest.
 
