@@ -1,5 +1,7 @@
-pymc
-numpyro==0.15.3
-jax==0.4.35
-jaxlib==0.4.35
+jax==0.4.27
+jaxlib==0.4.27
+numpyro==0.16.0
 arviz==0.20.0
+numpy==1.26.4
+matplotlib==3.9.2
+pandas==2.2.3

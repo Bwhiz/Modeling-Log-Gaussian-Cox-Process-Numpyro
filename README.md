@@ -173,4 +173,4 @@ Also below we get a plot for the Posterior mean as well as the Posterior Varianc
   <img src="./assets/posterior_variance.jpg" alt="Image 2" width="45%" />
 </p>
 
-As seen in the posterior variance plot, the spatial variation in our estimates of the intensity field has a lot of uncertainty.
+As seen in the posterior variance plot, the spatial variation in our estimates of the intensity field has a lot of uncertainty. This indicates that the model struggles to make confident predictions in certain regions, likely due to sparse or noisy data, or inherent variability in the spatial process. As a result, these areas of high uncertainty highlight the need for additional data collection or model refinement to improve predictive accuracy.
